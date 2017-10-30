@@ -45,7 +45,8 @@ library(dplyr)
         MS_avg_data_tbl <- MSdata %>% group_by(subject_num,activity_label) %>% 
                 summarize_all(funs(mean))
         MS_avg_df <- as.data.frame(MS_avg_data_tbl)
-        print(head(MS_avg_df))
+        ##print(head(MS_avg_df))
+        write.table(MS_avg_df,file = "output.txt",row.names = FALSE)
         
 
         
