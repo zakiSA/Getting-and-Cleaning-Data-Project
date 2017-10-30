@@ -19,3 +19,6 @@ Created new data set from columns with measurements for mean and standard deviat
 
 Substituted activity names for activity labels for above data set derived from activity_labels.txt
 Created and independent data frame with data from above with average for each variable, for each activity(LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS for each subject(1-30)
+
+Full Description available at 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
