@@ -1,4 +1,5 @@
-##Transformations and Work done on data from 
+Transformations and Work done on data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 All relevant files from Train and Test data were loaded into RStudio using read.table()
 Activity labels data was obtained from y_train.txt and y_test.txt files in train 
 and test folders of UCI HAR Dataset and added as a column to the train and test data frames
